@@ -1,0 +1,31 @@
+main.css
+*{
+    box-sizing: border-box; /*Padrão para estilos de css, tamanho da caixa, permite incorporar os pagins e margens no estilo*/
+}
+.flex-pai { /*Propriedades devem ser usadas em divs pai*/
+    background-color: rgb(255, 0, 0);
+    height: 600px;
+    display: flex; /* Alinha os elementos em linha,testar em o flex, as divis irão ficar em bloco */
+   /* flex-direction:row; */ /* Usada junto do display:flex, COLUMN OU ROW, testar row-reverse,column-reverse, elementos em linha ou coluna */
+/*  flex-wrap: wrap;*/ /*Os divs ficam contidos no div-pai, nowrap permite que as divs não fiquem contidas na div pai*/
+flex-flow: row wrap; /*E a junção do flex-direction, flex-wrap, assim e possível passar duas propiedades para ele: flex-flow: row wrap*/
+justify-content:flex-start ;/*Alinha os elementos dentro da div, ALINHAMENTO HORIZONTAL*/ 
+align-items: center; /* stretch Ocupa toda a tela por padrão,  CENTER no meio da tela, ALINHAMENTO VERTICAL*/
+align-content:baseline;
+
+}
+
+@media screen and (max-width:300px){ /* Altera a div para ser exibida em linhas se o tamanho da tela chegar a 600px */
+    .flex-pai{
+        flex-direction: column;
+    }
+}
+
+.flex-pai div{
+    flex-grow:1;/*Define o crescimento dos elementos,ex: 1x maior que o resto do itens*/
+    background-color: white;
+    border: 1px solid black; /* Cria uma borda na div */
+    margin: 5px;
+    padding: 30px;
+    text-align: center;
+}

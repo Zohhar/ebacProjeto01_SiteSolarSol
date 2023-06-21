@@ -7,9 +7,7 @@ body {
     min-width: 50vh;
 }
 
-header {
-    flex-wrap: wrap;
-}
+
 .div1 {
 background-color: #ff7300;
 
@@ -69,13 +67,14 @@ flex-wrap: wrap;
     align-items: center;
     flex-direction: column;
     text-align: center;
-    flex-wrap: wrap;
+    
 }
 
 .texto-central1 p{   
     color: #ff7300;
     font-size: 80px;
     margin: auto;
+    flex-wrap: wrap;
     
 }
 
@@ -83,6 +82,7 @@ flex-wrap: wrap;
     color: #ff7300;
     font-size: 40px;
     margin: auto;
+    flex-wrap: wrap;
 }
 
 /*Sobre nós sessão 2*/

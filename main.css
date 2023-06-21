@@ -49,8 +49,15 @@ flex-wrap: wrap;
     .div1 ul{
         flex-direction: column;
     }
-    .carrossel p{
-        size: 10px;
+    .texto-central1 p{
+        font-size: 60px;;
+    }
+    .texto-central2 p{
+        font-size: 40px;;
+    }
+
+    .body{
+        flex-direction: column;
     }
 }
 
@@ -195,22 +202,33 @@ flex-wrap: wrap;
 }
 #contact{
     background-color: #eb6c12;
+    padding: 50px ;
     display :flex;
     justify-content: space-between;
     text-align: center;
+    flex-wrap: wrap;
 }
 
 .contact-methods{
     background-color: #ffffff;
     border-radius: 2%;
     margin: 30px ;
-    flex-wrap: wrap; 
-    
 }
 
 .contact-methods h3{
     color: #eb6c12;
     font-size: 20px;
+}
+
+.contatos{
+    color:white;
+    text-align: start;
+    
+}
+
+.contatos ul{
+    list-style: none;
+    padding: 0px;
 
 }
 
@@ -239,7 +257,7 @@ background-color: #eb6c12;
 }
 
 form button:hover{
-    background-color: #df9152;
+    background-color: #000000;
 }
 
 .bnt-whatsapp{
@@ -290,7 +308,7 @@ form button:hover{
 }
 
 footer{
-background-color: #eb6c12;
+background-color: #000000;
     height: 50px;
     display: flex;
     justify-content: flex-start;

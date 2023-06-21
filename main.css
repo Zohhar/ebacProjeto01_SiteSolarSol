@@ -187,7 +187,6 @@ flex-wrap: wrap;
 }
 #contact{
     background-color: #eb6c12;
-    padding: 50px ;
     display :flex;
     justify-content: space-between;
     text-align: center;
@@ -208,6 +207,7 @@ flex-wrap: wrap;
 .contatos{
     color:white;
     text-align: start;
+    margin: 10px;
     
 }
 
@@ -223,6 +223,9 @@ form textarea {
     width: 350px;
     padding: 8px;
     margin: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 form textarea {

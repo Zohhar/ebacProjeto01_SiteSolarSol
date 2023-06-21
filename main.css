@@ -4,10 +4,7 @@ body {
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-    min-width: 280px;
 }
-
-
 
 header {
     flex-wrap: wrap;
@@ -44,9 +41,21 @@ flex-wrap: wrap;
     display: inline-block;
     text-decoration: none;
 }
- .div1 a:hover{
-    color: #000000;
- }
+
+.div1 li:hover{
+    background-color: #000000;
+}
+
+@media screen and (max-width :600px){ /* Altera a div para ser exibida em linhas se o tamanho da tela chegar a 600px */
+    .div1 ul{
+        flex-direction: column;
+
+    }
+
+    .body {
+        flex-direction: column;
+    }
+}
 
 /*Imagem de fundo sessão 1*/
 .carrossel {
@@ -140,7 +149,7 @@ flex-wrap: wrap;
     display: flex;
     display: block;
     text-align: center;
-    color: #3f3f3f; 
+    color: #000000; 
 }
 
 .divicones ul{

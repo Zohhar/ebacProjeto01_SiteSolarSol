@@ -4,14 +4,21 @@ body {
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-    min-width: 600px;
+    min-width: 280px;
+}
+
+
+
+header {
+    flex-wrap: wrap;
 }
 .div1 {
 background-color: #ff7300;
-height: 120px;
+
 display: flex;
 justify-content: space-around;
 align-items: center;
+text-align: center;
 flex-wrap: wrap;
 }
 
@@ -36,9 +43,10 @@ flex-wrap: wrap;
     padding: 10px;
     display: inline-block;
     text-decoration: none;
-    
-    
 }
+ .div1 a:hover{
+    color: #000000;
+ }
 
 /*Imagem de fundo sessão 1*/
 .carrossel {
@@ -95,6 +103,13 @@ flex-wrap: wrap;
 
 /*Section 3 Serviços*/
 
+.servicos h2{
+    text-align: center;
+    color: #ff7300;
+    padding: 30px;
+    font-size: 50px;
+    margin: 0%;  
+}
 .servicos{
     display: flex;
     justify-content: center;
@@ -116,9 +131,7 @@ flex-wrap: wrap;
     font-family: 'Roboto', sans-serif;
     padding: 10px;
 }
-.servicos h2{
-    color: #ff7300;
-}
+
 
 /*Icones-------------------------------------------------*/
 
@@ -127,7 +140,7 @@ flex-wrap: wrap;
     display: flex;
     display: block;
     text-align: center;
-    color: #3f3f3f;
+    color: #3f3f3f; 
 }
 
 .divicones ul{
@@ -136,7 +149,8 @@ flex-wrap: wrap;
     align-items: center; 
     font-size: 18px;
     list-style: none;
-    height: 400px; 
+    height: 400px;
+    flex-wrap: wrap; 
 }
 
 .divicones h2{

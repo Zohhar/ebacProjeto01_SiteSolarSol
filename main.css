@@ -45,21 +45,6 @@ flex-wrap: wrap;
     background-color: #000000;
 }
 
-@media screen and (max-width :600px){ /* Altera a div para ser exibida em linhas se o tamanho da tela chegar a 600px */
-    .div1 ul{
-        flex-direction: column;
-    }
-    .texto-central1 p{
-        font-size: 60px;;
-    }
-    .texto-central2 p{
-        font-size: 40px;;
-    }
-
-    .body{
-        flex-direction: column;
-    }
-}
 
 /*Imagem de fundo sessão 1*/
 .carrossel {
@@ -321,3 +306,17 @@ footer p{
     font-size: 15px;
 }
 
+@media screen and (max-width :600px){ /* Altera a div para ser exibida em linhas se o tamanho da tela chegar a 600px */
+    .div1 ul{
+        flex-direction: column;
+    }
+    .body{
+        flex-direction: column;
+    }
+    .texto-central1 p{
+        font-size: 55px;
+    }
+    .texto-central2 p{
+        font-size: 32px;
+    }
+}

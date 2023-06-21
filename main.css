@@ -4,6 +4,7 @@ body {
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    min-width: 50vh;
 }
 
 header {
@@ -49,11 +50,9 @@ flex-wrap: wrap;
 @media screen and (max-width :600px){ /* Altera a div para ser exibida em linhas se o tamanho da tela chegar a 600px */
     .div1 ul{
         flex-direction: column;
-
     }
-
-    .body {
-        flex-direction: column;
+    .carrossel p{
+        size: 10px;
     }
 }
 
@@ -70,12 +69,14 @@ flex-wrap: wrap;
     align-items: center;
     flex-direction: column;
     text-align: center;
+    flex-wrap: wrap;
 }
 
 .texto-central1 p{   
     color: #ff7300;
     font-size: 80px;
     margin: auto;
+    
 }
 
 .texto-central2 p{   
@@ -83,7 +84,6 @@ flex-wrap: wrap;
     font-size: 40px;
     margin: auto;
 }
-
 
 /*Sobre nós sessão 2*/
 .conteudo{

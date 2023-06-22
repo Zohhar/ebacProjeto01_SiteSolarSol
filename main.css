@@ -1,10 +1,14 @@
 
+*{
+    box-sizing: border-box; /*Padrão para estilos de css, tamanho da caixa, permite incorporar os pagins e margens no estilo*/
+}
 body {
     margin: 0 auto;
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
     min-width: 50vh;
+    
 }
 
 
@@ -166,7 +170,7 @@ flex-wrap: wrap;
 
 /*Marcas sessão 3-----------------------------------------*/
 .marcas{
-    height: 400px; 
+    height: 400px;
 }
 
 .marcas h2{
@@ -179,16 +183,20 @@ flex-wrap: wrap;
     display: flex;
     justify-content: space-around;
     align-items: center;   
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
+    padding: 0px; 
 }
 
 .marcas img{
-    width: 200px;   
+    width: 200px;
+    margin: 0px;   
 }
+
 #contact{
     background-color: #eb6c12;
     display :flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
     text-align: center;
     flex-wrap: wrap;
 }
@@ -289,10 +297,9 @@ form button:hover{
 
 .whatsapp{
     display: flex;
-    justify-content: end;
-    align-items: end;
-    margin-right: 20px;
-    margin-bottom: 20px;
+    justify-content: start;
+    align-items: start;
+    
 }
 
 footer{
@@ -321,5 +328,11 @@ footer p{
     }
     .texto-central2 p{
         font-size: 32px;
+    }
+
+    .contatos{
+        
+        justify-content: start;
+        align-items:flex-start;
     }
 }

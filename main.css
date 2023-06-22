@@ -34,6 +34,7 @@ flex-wrap: wrap;
     font-family: 'Roboto', sans-serif;
     flex-wrap: wrap;
     cursor: pointer;
+    padding: 0%;
 
 }
 
@@ -317,9 +318,15 @@ footer p{
 }
 
 @media screen and (max-width :600px){ /* Altera a div para ser exibida em linhas se o tamanho da tela chegar a 600px */
+    .div1 img{
+        margin-top: 20px;
+    }
+
     .div1 ul{
         flex-direction: column;
+        width: 0 auto;
     }
+
     .body{
         flex-direction: column;
     }

@@ -138,13 +138,13 @@ flex-wrap: wrap;
     display: block;
     text-align: center;
     height: 500px auto;
-    color: #000000; 
+    color: #000000;
 }
 
 .divicones ul{
     display:flex;
     justify-content: space-around;
-    align-items: center; 
+    align-items: flex-start; 
     list-style: none;
     font-size: 18px;
     flex-wrap: wrap; 
@@ -183,7 +183,7 @@ flex-wrap: wrap;
     align-items: center;   
     height: 500px auto;
     flex-wrap: wrap;
-    padding: 0px; 
+    padding: 5px; 
 }
 
 .marcas img{

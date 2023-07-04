@@ -1,8 +1,6 @@
 
 html { scroll-behavior:smooth} /* Validar se esse código permite rolar suavemente a página*/
-*{
-    box-sizing: border-box; /*Padrão para estilos de css, tamanho da caixa, permite incorporar os pagins e margens no estilo*/
-}
+
 body {
     margin: 0 auto;
     padding: 0px;

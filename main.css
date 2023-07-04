@@ -350,6 +350,9 @@ footer p{
     .div1 li{
         padding: 0px;
         }
+    .div1 a{
+        font-size: 15px;
+    }    
     .texto-central1 p{
     font-size: 45px;
     }

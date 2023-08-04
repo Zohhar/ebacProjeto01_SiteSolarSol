@@ -135,14 +135,15 @@
         <div class="contact-methods">
             <h3>Solicite um orçamento</h3>
             <form action="https://formsubmit.co/8c2fa3121d9c7d70b422723600abc285" method="post">
-                <input type="text" name="name" placeholder="Seu nome" required>
                 <input type="email" nome="email" placeholder="E-mail" required>
                 <input type="tel" placeholder="Telefone" >
-                <textarea placeholder="Sua mensagem" required></textarea>
-                <button type="submit">Enviar</button>
 
+                <input type="hidden" name="Assunto" value="Novo Contato!">
+                <input type="text" name="Nome" placeholder="Seu nome" required>
+                <textarea cols="30" name="Mensagem" 
+                    placeholder="Sua mensagem" required></textarea>
+                <button type="submit">Enviar</button>
                 <!--Enviar email--> 
-                <input type="hidden" name="subject" value="Novo Contato!">
                 <input type="text" name="_honey" style="display:none">
                 <input type="hidden" name="_captcha" value="false">
             </form>
@@ -156,7 +157,7 @@
                 </li>
                 <li>
                     
-                    <a href=""> <img src="./img/e-mail.png"> filipissolar@gmail.com</a>
+                    <a href=""> <img src="./img/e-mail.png"> comercial@filipissolar.com.br</a>
                 </li>
                 <li>
                     
@@ -171,6 +172,7 @@
                 <button class="bnt-whatsapp">
                     <a href="https://api.whatsapp.com/send?phone=5587999888660" target="_blank">
                     <i class="fa fa-whatsapp"></i>
+                    <img src="./img/whatsapp2.png">
                     </a>
                 </button>
             </div>
@@ -182,7 +184,7 @@
         
         <div class="rodape" >
             <P>
-                &copy; Fílipis Solar - Todos os direitos reservados
+                &copy; Filípis Solar - Todos os direitos reservados
             </P>
         </div>
     </footer>

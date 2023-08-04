@@ -203,8 +203,8 @@ flex-wrap: wrap;
 }
 
 .marcas img{
-    width: 200px;
-    margin: 0px;   
+    width: 170px;
+    margin: 5px;   
 }
 
 #contact{
@@ -245,7 +245,7 @@ form textarea {
     display: block;
     width: 350px;
     padding: 8px;
-    margin: 10px;
+    margin: 10px auto;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -263,7 +263,7 @@ background-color: #eb6c12;
     border: none;
     cursor: pointer;
     border:none;
-    width: 368px;
+    width: 350px;
     padding: 8px;
     margin: 10px;
 }
@@ -315,7 +315,13 @@ form button:hover{
     display: flex;
     justify-content: start;
     align-items: start;
-    
+}
+.whatsapp img {
+    width:300%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    position: fixed;
 }
 
 footer{

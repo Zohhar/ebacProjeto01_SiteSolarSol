@@ -1,2 +1,2 @@
-# filipissolar
-Site Filipis Solar
+# solarsol
+Site Solar Sol
